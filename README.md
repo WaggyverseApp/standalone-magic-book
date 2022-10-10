@@ -8,4 +8,6 @@ A simple web page to display your magic book on your own domain. Demo here: http
 <p>2: Create your Magic Book, add your music, set your theme to dark or light.</p>
 <br>
 <p>3: Copy the code to embed your Magic Book</P>
-<img src=""/>
+<img src="ezgif.com-gif-maker.gif"</>
+<br>
+<p>$: Replace the iframe code in the .html file with your own code.</p>
