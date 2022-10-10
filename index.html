@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <met name="viewport" content="width=device-width, initial-scale=1">     
+    <title>The Wizard and the Dog</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="The Wizard and the Dog">
+    <meta property="og:description" content="Demo Waggyverse App book with animated background!">
+    <meta property="og:image" content="https://res.cloudinary.com/wikacy-com/image/upload/dpr_auto,e_improve,q_100/v1664860660/promos/Waggyverse-App-Public-Beta-Release_rh2lby.png">
+    <meta property="og:url" content="https://waggyverseapp.com">
+    <meta name="twitter:title" content="Waggyverse App">
+    <meta name="twitter:description" content="Where my writing dogs at!!!">
+    <meta name="twitter:image" content="https://res.cloudinary.com/wikacy-com/image/upload/dpr_auto,e_improve,q_100/v1664860660/promos/Waggyverse-App-Public-Beta-Release_rh2lby.png">
+    <meta name="twitter:card" content="summary_large_image">
+     <script>
+      //const params = new URLSearchParams(window.location.search);
+      
+     // const paramValue = params.get("url"); 
+     // console.log(paramValue) ;    
+     // var url = paramValue;
+     // console.log(url);
+      //document.getElementById('appDemo');
+     // child=(elem.firstElementChild||elem.firstChild);
+     // child.src = url;
+     // console.log(child);
+   // var url = "https://waggyverse.appgyverapp.com/m-page.Page7?bookId=vNKZnXmzatzQgGkDuNVu&postType=book&mode=solo"
+   // document.getElementById('appDemo');
+    //  child=(elem.firstElementChild||elem.firstChild);
+    //  child.src = url;
+
+     </script>
+    <!-- update the version number as needed -->
+    <!-- <script defer src="/__/firebase/9.10.0/firebase-app-compat.js"></script> -->
+    <!-- include only the Firebase features as you need -->
+    <!--<script defer src="/__/firebase/9.10.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-performance-compat.js"></script> -->
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
+
+    <style media="screen">
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.appdemo{
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  z-index: 10;
+  
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+
+
+
+
+
+.area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+      
+    </style>
+  </head>
+  <body>
+    <div class = "context">
+
+        
+<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_AQEOul.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    
+      <div alignment="center" class="appdemo" style="padding:0px; webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;width:340px;height:600px;margin:0 auto;overflow:hidden;">
+        <iframe id="book" src="https://waggyverse.appgyverapp.com/m-page.Page7?bookId=vNKZnXmzatzQgGkDuNVu&postType=book&mode=solo" width="340px" height="600px;" frameborder="0"></iframe>
+    </div>
+      </div>
+    
+  
+
+
+<div class="area" >
+          <ul class="circles">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+          </ul>
+  
+  </div>
+  
+
+    <script>
+     // document.addEventListener('DOMContentLoaded', function() {
+      //  const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+       // try {
+         // let app = firebase.app();
+         // let features = [
+         ////   'auth', 
+          //  'database', 
+          //  'firestore',
+          //  'functions',
+          //  'messaging', 
+          //  'storage', 
+          //  'analytics', 
+          //  'remoteConfig',
+          //  'performance',
+          //].filter(feature => typeof app[feature] === 'function');
+         // loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+       // } catch (e) {
+       //   console.error(e);
+       //   loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+       // }
+      //}); -->
+    </script>
+  </body>
+</html>
